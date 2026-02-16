@@ -32,13 +32,9 @@ function Header() {
   return (
     <>
       <nav className="py-4 flex justify-between items-center">
-        {/* <Link>
-          <img src="/logo.png" alt="logo" className="h-20" />
-        </Link> */}
         <Link>
-          <h1 className="text-2xl font-bold text-blue-400">KaamBridge</h1>
+          <img src="/kaamBridge-logo.png" alt="logo" className="h-12" />
         </Link>
-
         <div className="flex gap-8">
           <SignedOut>
             <Button variant="outline" onClick={() => setShowSignIn(true)}>

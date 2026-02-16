@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1d4ed8"/>
+      <stop offset="100%" stop-color="#14b8a6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Left pillar -->
+  <rect x="5" y="8" width="4" height="16" rx="1" fill="url(#grad)" />
+
+  <!-- Right pillar -->
+  <rect x="23" y="8" width="4" height="16" rx="1" fill="url(#grad)" />
+
+  <!-- Bridge arch -->
+  <path d="M7 16 Q16 10 25 16" 
+        stroke="url(#grad)" 
+        stroke-width="3" 
+        fill="none" 
+        stroke-linecap="round"/>
+</svg>
