@@ -33,7 +33,7 @@ function Header() {
     <>
       <nav className="py-4 flex justify-between items-center">
         <Link>
-          <img src="/kaamBridge-logo.png" alt="logo" className="h-12" />
+          <img src="/kaamBridge-logo.png" alt="logo" className="h-15" />
         </Link>
         <div className="flex gap-8">
           <SignedOut>
