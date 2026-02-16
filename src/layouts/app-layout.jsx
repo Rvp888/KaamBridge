@@ -5,7 +5,7 @@ function AppLayout() {
   return (
     <div>
       <div className="grid-background"></div>
-      <main className="min-h-screen w-full mx-auto px-8">
+      <main className="min-h-screen container mx-auto px-8">
         <Header />
         <Outlet />
       </main>
